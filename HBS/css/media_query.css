@@ -1,0 +1,62 @@
+@charset 'utf-8';
+/* xs screens */
+@media (max-width: 767px) {
+    .navbar-default {
+        text-align: center;
+        font-size: 22px;
+    }
+    .bannar .content h1 {
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+    .why-choose-us .row div {
+        text-align: center;
+    }
+    .gallery {
+        text-align: center;
+    }
+    .signup .user-name,
+    .signup .user-blood-class,
+    .signup .user-gender-type,
+    .signup .user-disease-type {
+        display: block;
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-bottom: 10px;
+    }    
+}
+
+/* sm screens */
+@media (min-width: 768px) and (max-width: 991px) {
+    .gallery {
+        text-align: center;
+    }
+    .signup .user-name,
+    .signup .user-blood-class,
+    .signup .user-gender-type,
+    .signup .user-disease-type {
+        display: block;
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-bottom: 10px;
+    }
+}
+
+/* md screens */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .gallery {
+        text-align: center;
+    }    
+}
+
+/* lg screens */
+@media (min-width: 1200px) {
+    
+}
+
+/* custom screen */
+@media (min-width: 993px) and (max-width: 1199px) {
+    .gallery img {
+        width: 50%;
+    }     
+}

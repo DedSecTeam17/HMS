@@ -1,0 +1,411 @@
+@charset 'utf-8';
+body {
+    background-color: #F1F1F1;
+    /*font-family: 'Raleway', sans-serif;*/
+}
+.website-header .logo-container {
+    padding-top: 20px;
+}
+.linkss li a i {
+    font-size: 20px;
+}
+.links li a {
+    padding: 0;
+    text-decoration: none;
+}
+.links li i {
+    padding: 15px;
+    font-size: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.fa-youtube:hover {
+    color: #D82B2B;
+    cursor: pointer;
+}
+.fa-twitter:nth-child(1):hover {
+    color: #598DCA;
+    cursor: pointer;
+}
+i.fa-google-plus-g:nth-child(1):hover {
+    color: #EE2A26;
+    cursor: pointer;
+}
+.fa-linkedin-in:hover {
+    color: #0173B2;
+    cursor: pointer;
+}
+i.fa-facebook-f:nth-child(1):hover {
+    color: #3A589B;
+    cursor: pointer;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent; 
+}
+.navbar-default .navbar-nav {
+    color: #6C6C6C; font-weight: bold; transition: all 0.5s ease-in-out;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent;
+    color: #262626;
+}
+.bannar {
+    background-image: url('../images/Best%20Doctor%20copy.png');
+    display: block;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bannar .content h1 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #474747;
+}
+.bannar .content .lead {
+    color: #3F3F3F;
+}
+.bannar .content .btn-default {
+    background-color: #1A9BDC;
+    color: #FFFFFF;
+    border-radius: 20px;
+}
+.ser {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #1A9BDC;
+    color: #FFFFFF;
+}
+.ser .lead {
+    font-size: 16px;
+}
+.ser i {
+    color: #777777;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 15px;
+}
+.our-parteners {
+    background-color: rgba(215, 26, 35, 0.4);
+}
+.our-parteners .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+.our-parteners .box {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.why-choose-us {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.why-choose-us header {
+    margin-bottom: 100px;
+}
+.why-choose-us i {
+    background-color: #1A9BDC;
+    color: #FFFFFF;
+    padding: 5px;
+    border-radius: 50%;
+}
+.why-choose-us .row div {
+    margin-bottom: 20px;
+}
+.about {
+    background-image: url('../images/about-bg.png');
+    display: block;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+}
+.about .overlay {
+    background-color: rgba(0, 135, 190, 0.4);
+    width: 100%;
+    height: 100%;
+}
+.about .content {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.about .content i {
+    color: #FFFFFF;
+}
+.gallery .overlay {
+    background-color: rgba(56, 182, 158, 0.4);
+    width: 100%;
+    height: 100%;
+}
+.gallery .overlay header {
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.gallery .overlay img {
+    margin-bottom: 20px;
+}
+.our-team {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.our-team header {
+    margin-bottom: 25px;
+}
+.our-team header h2 {
+    color: #494949;
+}
+.our-team header p {
+    color: #6A6A6A;
+}
+.our-team .box-one .img-cont {
+    background-color: #F4F3F1;
+}
+.our-team .box-one .img-cont img {
+    border-radius: 50%;
+}
+.our-team a,
+.panel a {
+    color: #2F3336;
+}
+.panel {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4),
+                -1px -1px 1px rgba(0, 0, 0, 0.4);
+}
+.website-footer {
+    background-color: #1A1A1A;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.website-footer p {
+    margin-bottom: 0;
+}
+.booking {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4),
+                -1px -1px 5px rgba(0, 0, 0, 0.4);
+}
+.booking h3 a {
+    color: #6A6A6A;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+}
+.booking h3 a:hover {
+    color: #000000;
+    cursor: pointer;
+}
+.booking hr {
+    width: 100%;
+    height: 1px;
+    background-color: #333333;
+}
+.back-to-top {
+    position: fixed;
+    right: 12px;
+    bottom: 5px;
+    background-color: #6A6A6A;
+    border-radius: 50%;
+    display: none;
+}
+.back-to-top i {
+    color: #FFFFFF;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.back-to-top i:hover {
+    color: #333;
+    cursor: pointer;
+}
+/*#############################################################################*/
+.login,
+.signup {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.login .user-name-label,
+.login .user-password-label,
+.signup .user-name-label,
+.signup .user-blood-class-label,
+.signup .user-gender-label,
+.signup .user-disease-label,
+.signup .user-password-label {
+    display: block;
+    margin-top: 10px;
+}
+.login .user-name,
+.login .user-password,
+.signup .user-name,
+.signup .user-blood-class,
+.signup .user-gender-type,
+.signup .user-disease-type,
+.signup .user-password {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 1px solid #333333;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+}
+.login .user-name:hover,
+.login .user-password:hover,
+.signup .user-password:hover {
+    padding-right: 175px;
+    padding-left: 175px;    
+}
+.login .btn-default,
+.signup .btn-default {
+    margin-top: 35px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 20px;
+    transition: all 0.7s ease-in-out;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);    
+}
+.login .btn-default:hover {
+    background-color: #5CB85C;
+    border-color: #4CAE4C;
+    color: #FFFFFF;
+}
+.login .btn-reset:hover,
+.signup .btn-reset:hover {
+    background-color: #1A9BDC;
+    border-color: #1A9BDC;
+    color: #FFFFFF;    
+}
+.signup .btn-default:hover {
+    background-color: #3398B7;
+    border-color: #3398B7;
+    color: #FFFFFF;
+}
+.signup .user-name,
+.signup .user-blood-class,
+.signup .user-gender-type,
+.signup .user-disease-type {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+/*##################################################################################*/
+.account .avatar {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.account .avatar .avatar-img {
+    padding: 5px;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4),
+                -1px -1px 1px rgba(0, 0, 0, 0.4);
+    opacity: 0.3;
+    transition: all 0.8s ease-in-out;
+}
+.account .avatar .avatar-img:hover {
+    cursor: pointer;
+    opacity: 1.0;
+}
+
+.booking-now .btn-default {
+    color: #FFFFFF;
+    border-radius: 20px;
+    position: fixed;
+    right: 12px;
+    top: 5px;
+    color: #333333;
+}
+.booking-now .btn-default:hover {
+    background-color: #1A9BDC;
+    transition: all 0.5s ease-in-out;
+    color: #FFFFFF;
+}
+.hospital-clinic-menu {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333333;
+    border-radius: 4px;
+}
+.booking-buttons {
+    margin-top: 25px;
+}
+.booking-buttons .btn {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.errormessage{
+    color: red;
+    padding: 10px;
+}
+.card
+{
+    padding: 25px;
+    border-radius: 10px;
+}
+.p_label{
+    color: #0173B2;
+}
+.p_text{
+    padding: 10px;
+    color: rgb(161, 161, 161);
+}
+.dropdown-menu a{
+   color: #0173B2 !important;
+   padding: 10px !important;
+   padding-left: 15px !important;
+   transition: all 0.4s;
+}
+.dropdown-menu a:hover{
+    padding-left: 25px !important;
+    background-color: #0173B2 !important;
+    color: #fff !important;
+}
+
+.Profile{
+    background-color: rgba(1, 116, 178, 0.74);
+    padding: 10px;
+    padding-left: 20px;
+    color: #FFF;
+    border-radius: 5PX;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Active{
+    background-color: rgba(1, 178, 75, 0.712);
+    padding: 10px;
+    color: #FFF;
+    border-radius: 5PX;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.badge{
+    float: right;
+    background-color: #fff;
+    color: rgb(1, 178, 75);
+}
+.rowbor{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.none-hover{
+        transition: all .8s;
+}
+.none-hover:hover {
+    background-color: transparent;
+    color: #262626;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.651),
+                -1px -1px 1px rgba(0, 0, 0, 0.658);
+    transition: all .5s;
+}
